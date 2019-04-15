@@ -53,7 +53,6 @@ describe 'Post' do
     end
 
     it 'returns nil if the post does not have an author' do
-      binding.pry
       expect(post.author_name).to eq nil
     end
   end
